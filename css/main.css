@@ -13,9 +13,35 @@ body {
   margin: 0px auto;
 }
 
+.border-full {
+  border-style: solid;
+  border-color: rgba(200, 200, 200, 0.2);
+  padding: 10px;
+}
+
+.border-top {
+  border-top-style: solid;
+  border-color: rgba(200, 200, 200, 0.1);
+  padding: 10px;
+  margin-top:30px;
+}
+
 h2 {
   font-weight: normal;
   font-family: Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.margin-bottom {
+  margin-bottom: 10px;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+
+.margin-left {
+  margin-left: 150px;
 }
 
 label {
@@ -25,22 +51,73 @@ label {
   margin-bottom: 0px;
 }
 
-.forgot-password {
-  font-size: 13px;
+.align-right {
   text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+button {
+  width: 100%;
+  margin: 10px auto 0px auto;
+}
+
+.extra-margin-bottom {
+  margin-bottom: 15px;
 }
 
 .btn-yellow {
   background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
 }
 
+.btn-text {
+  font-size: 13px;
+}
 
-footer a {
+.vertical-mid {
+  vertical-align: middle;
+}
+
+.light-grey {
+  color: rgba(150, 150, 150, 1);
+}
+
+a {
   font-size: 13px;
 }
 
 a:hover {
   color: red;
+}
+
+span {
+    display: inline-block;
+}
+span:before,
+span:after {
+    border-top: 1px solid black;
+    border-color: rgba(200, 200, 200, 0.4);
+    display: block;
+    height: 1px;
+    content: " ";
+    width: 30%;
+    position: absolute;
+    left: 1em;
+    top: 1.2em;
+}
+span:after {
+   right: 1em;
+   left: auto;
+}
+
+footer a {
+  font-size: 11px;
 }
 
 .copyright {
